@@ -1,8 +1,7 @@
-# Swiggato
+# Jira assignment
 
-[Deployed Link](https://swiggato-swart.vercel.app/)
+[Deployed Link](https://jira-fe-us3t.vercel.app/)
 
-[Video Link](https://www.loom.com/share/7b7503bb5b0d42b5851de4cd6ebb1c86)
  
 
 ## Getting Started
@@ -10,7 +9,7 @@
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/tharsh95/HarshTiwari-FrontendDeveloper.git
+git clone https://github.com/tharsh95/jira_fe.git
 ```
 
 ### Step 2: Install Dependency
@@ -21,6 +20,7 @@ yarn
 # Using npm
 npm install
 ```
+### Before Running the app
 
 ### Step 3:Run the application
 ```bash
