@@ -20,7 +20,7 @@ yarn
 # Using npm
 npm install
 ```
-### Step 5:Open the browser
+### Step 5:Add env 
 ```bash
 Add .env file to the root of the frontend directory, Copy the key value from .env.example
 ```
