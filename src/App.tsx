@@ -13,7 +13,7 @@ function App() {
     <Routes>
       <Route
         path="/"
-        element={<DataTable columns={columns} data={data} loading={loading} />}
+        element={<DataTable columns={columns} data={data}  />}
       />
       <Route path="/customtable" element={<JiraIssuesTable data={data} loading={loading} />} />
     </Routes>
