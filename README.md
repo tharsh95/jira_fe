@@ -20,7 +20,7 @@ yarn
 # Using npm
 npm install
 ```
-### Before Running the app
+## Before Running the app finish the steps to run backend locally [Backend Repo Link](https://github.com/tharsh95/vercel)
 
 ### Step 3:Run the application
 ```bash
