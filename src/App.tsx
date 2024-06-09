@@ -10,11 +10,15 @@ function App() {
 
   return (
     <Routes>
-        <Route path="/" element={<JiraIssuesTable data={data} loading={loading} />}/>
-      <Route path="/">
-        <Route path="/shadcn" element={<DataTable columns={columns} data={data} />}/>
-      </Route>
+      <Route
+        path="/"
+        element={<JiraIssuesTable data={data} loading={loading} />}
+      />
 
+      <Route
+        path="/shadcn"
+        element={<DataTable columns={columns} data={data} />}
+      />
     </Routes>
   );
 }
