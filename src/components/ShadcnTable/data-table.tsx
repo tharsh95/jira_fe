@@ -66,7 +66,7 @@ export function DataTable<TData, TValue>({
         <h1 className="text-2xl font-bold ">Jira Issues</h1>
         <Button>
           
-          <Link to="/customtable">Custom Table</Link>
+          <Link to="/">Custom Table</Link>
         </Button>
       </div>
       <div className="flex items-center justify-center py-4">

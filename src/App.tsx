@@ -12,10 +12,10 @@ function App() {
   return (
     <Routes>
       <Route
-        path="/"
+        path="/customtable"
         element={<DataTable columns={columns} data={data}  />}
       />
-      <Route path="/customtable" element={<JiraIssuesTable data={data} loading={loading} />} />
+      <Route path="/" element={<JiraIssuesTable data={data} loading={loading} />} />
     </Routes>
   );
 }
