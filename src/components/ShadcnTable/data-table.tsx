@@ -65,7 +65,7 @@ export function DataTable<TData, TValue>({
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-2xl font-bold ">Jira Issues</h1>
         <Button>
-          {" "}
+          
           <Link to="/customtable">Custom Table</Link>
         </Button>
       </div>
