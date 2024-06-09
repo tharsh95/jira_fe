@@ -1,4 +1,4 @@
-# Jira assignment
+# Frontend
 
 [Deployed Link](https://jira-fe-us3t.vercel.app/)
 
@@ -20,9 +20,14 @@ yarn
 # Using npm
 npm install
 ```
+### Step 5:Open the browser
+```bash
+Add .env file to the root of the frontend directory, Copy the key value from .env.example
+```
+
 ## Before Running the app finish the steps to run backend locally [Backend Repo Link](https://github.com/tharsh95/vercel/blob/main/README.md)
 
-### Step 3:Run the application
+### Step 4:Run the application
 ```bash
 # Using yarn
 yarn dev
@@ -31,7 +36,7 @@ yarn dev
 npm run dev
 ```
 
-### Step 4:Open the browser
+### Step 5:Open the browser
 ```bash
 Open your browser and navigate to http://localhost:5173.
 ```
