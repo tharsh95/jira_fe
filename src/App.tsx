@@ -1,4 +1,3 @@
-
 import { columns } from "./components/ShadcnTable/columns";
 import { DataTable } from "./components/ShadcnTable/data-table";
 import { Route, Routes } from "react-router-dom";
@@ -11,11 +10,11 @@ function App() {
 
   return (
     <Routes>
-      <Route
-        path="/customtable"
-        element={<DataTable columns={columns} data={data}  />}
-      />
-      <Route path="/" element={<JiraIssuesTable data={data} loading={loading} />} />
+        <Route path="/" element={<JiraIssuesTable data={data} loading={loading} />}/>
+      <Route path="/">
+        <Route path="/shadcn" element={<DataTable columns={columns} data={data} />}/>
+      </Route>
+
     </Routes>
   );
 }
